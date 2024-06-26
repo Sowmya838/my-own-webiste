@@ -1,0 +1,58 @@
+html{
+    font-size:10px;
+    font-family: sans-serif;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%
+}
+    header {
+    display: flex;
+    align-items: center;
+}
+
+header statement{
+    background-color: white;
+    color: #00008b;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    font-style: italic;
+    font-size: 30px;
+    font-family:italic, Helvetica, sans-serif;
+    text-align: right;
+    display: flex;
+    
+}
+header main{
+    text-align:right;
+    padding-top:0px;
+    margin:0px;
+    margin-right:10px ;
+    height: auto; 
+    max-width:100px;
+    display:flex;
+}
+body nav{
+    background-color:red;
+    padding:10px;
+    padding-right: 10px;
+    margin:10px;
+    font-size:20px;  
+    text-align: justify;  
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+    .nav::after {
+    content: "\00a0"; 
+    margin-right: 100px;
+
+}
+
+ul::after{
+    content:"\0020";
+}
+
+footer{
+    background-color: red;
+    font-size:20px;
+    text-align:center;
+}
